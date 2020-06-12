@@ -7,6 +7,7 @@ class XDPopup_exit extends StatelessWidget {
   XDPopup_exit({
     Key key,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

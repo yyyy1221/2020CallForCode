@@ -14,6 +14,7 @@ class Home extends StatelessWidget {
     'https://postfiles.pstatic.net/MjAyMDA2MDlfMjQ4/MDAxNTkxNjI4NDExNzE3.OGAiO93s2jzEyzvO4pjo-oEuFUGcJyGxSC6eT3EbQLUg.eda1eYCbRtfvolHaXtXIubGjTcmaJ9nAQ1St9YwY6HMg.PNG.yyyy1221/news2.png?type=w966',
     'https://postfiles.pstatic.net/MjAyMDA2MDlfMjYx/MDAxNTkxNjI4NDExNzIw.o65QSdXYoIae8-PbkVBAq1-AlPZ_r97T4kHQaXqGvP8g.EJSWWK6ZYdj5rbXv4U3-YcpFHtfs1vwDLezD5ygIDmUg.PNG.yyyy1221/news3.png?type=w966',
   ];
+
 //  @override
 //  Widget build(BuildContext context) {
 //    final titles = [
@@ -39,97 +40,89 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color(0xfffdfffc),
-        body: SingleChildScrollView(
-        child: Column(
-          children: <Widget>[
-            Stack(
-              overflow: Overflow.visible,
-              children: <Widget>[
-            Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children:<Widget>[
-                Container(
-                  height:30.0,
-                ),
-                Container(
-                  height: 20.0,
-                  margin: EdgeInsets.only(left:15.0),
-                  child: Text(
-                    'Re-Earth',
-                    style: TextStyle(
-                      fontFamily: 'Roboto',
-                      fontSize: 20,
-                      color: const Color(0xff2699fb),
-                      fontWeight: FontWeight.w700,
+      backgroundColor: const Color(0xfffdfffc),
+      body: SingleChildScrollView(
+        child: Column(children: <Widget>[
+          Stack(
+            overflow: Overflow.visible,
+            children: <Widget>[
+              Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: <Widget>[
+                    Container(
+                      height: 30.0,
                     ),
-                    textAlign: TextAlign.left,
-                  ),
-                ),
-                Container(
-                  height: 208.0,
-                  width: double.infinity,
-                  child: InkWell(
-                      child:Image.asset('images/profile.png',
-                      fit: BoxFit.fill),
-                      onTap:(){
-                        Navigator.push(context, MaterialPageRoute<void>(
-                            builder:(BuildContext context){
+                    Container(
+                      height: 20.0,
+                      margin: EdgeInsets.only(left: 15.0),
+                      child: Text(
+                        'Re-Earth',
+                        style: TextStyle(
+                          fontFamily: 'Roboto',
+                          fontSize: 20,
+                          color: const Color(0xff2699fb),
+                          fontWeight: FontWeight.w700,
+                        ),
+                        textAlign: TextAlign.left,
+                      ),
+                    ),
+                    Container(
+                      height: 208.0,
+                      width: double.infinity,
+                      child: InkWell(
+                          child: Image.asset('images/profile.png',
+                              fit: BoxFit.fill),
+                          onTap: () {
+                            Navigator.push(context, MaterialPageRoute<void>(
+                                builder: (BuildContext context) {
                               return XDLv1();
-                            }
-                        ));
-                      }
-                  ),
-                ),
-                Container(
-                  height: 144.0,
-                  width: double.infinity,
-                  child: InkWell(
-                      child:Image.asset('images/quiz.png',
-                      fit: BoxFit.fill),
-                      onTap:(){
-                        Navigator.push(context, MaterialPageRoute<void>(
-                            builder:(BuildContext context){
-                              return Quiz11();
-                            }
-                        ));
-                      }
-                  ),
-                ),
-                Container(
-                  height: 190.0,
-                  width: double.infinity,
-                  child: InkWell(
-                      child:Image.asset('images/log.png',
-                      fit: BoxFit.fill),
-                      onTap:(){
-                        Navigator.push(context, MaterialPageRoute<void>(
-                            builder: (BuildContext context){
-                              return XDlog();
-                            }
-                        ));
-                      }
-                  ),
-                ),
-                Container(
-                  height: 156.0,
-                  width: double.infinity,
-                  child: Center(
-                    child: new Swiper(
-                      itemBuilder: (BuildContext context, int index){
-                        return Image.network(imgList[index]);
-                      },
-                      itemCount: 3,
-                      viewportFraction: 0.8,
-                      scale: 0.9,
-                      pagination: SwiperPagination(),
-                      control: SwiperControl(),
+                            }));
+                          }),
                     ),
-                  ),
-                ),
-              ]
-            ),
+                    Container(
+                      height: 144.0,
+                      width: double.infinity,
+                      child: InkWell(
+                          child:
+                              Image.asset('images/quiz.png', fit: BoxFit.fill),
+                          onTap: () {
+                            Navigator.push(context, MaterialPageRoute<void>(
+                                builder: (BuildContext context) {
+                              return Quiz11();
+                            }));
+                          }),
+                    ),
+                    Container(
+                      height: 190.0,
+                      width: double.infinity,
+                      child: InkWell(
+                          child:
+                              Image.asset('images/log.png', fit: BoxFit.fill),
+                          onTap: () {
+                            Navigator.push(context, MaterialPageRoute<void>(
+                                builder: (BuildContext context) {
+                              return XDlog();
+                            }));
+                          }),
+                    ),
+                    Container(
+                      height: 156.0,
+                      width: double.infinity,
+                      child: Center(
+                        child: new Swiper(
+                          itemBuilder: (BuildContext context, int index) {
+                            return Image.network(imgList[index]);
+                          },
+                          itemCount: 3,
+                          viewportFraction: 0.8,
+                          scale: 0.9,
+                          pagination: SwiperPagination(),
+                          control: SwiperControl(),
+                        ),
+                      ),
+                    ),
+                  ]),
 //            Transform.translate(
 //              offset: Offset(16.0, 300.0),
 //              child: Center(
@@ -145,14 +138,14 @@ class Home extends StatelessWidget {
 //                ),
 //              ),
 //            ),
-        ],
-        ),
-        Container(
-          width:100.0,
-          height:30.0,
-        ),
-          ]),
-    ),
+            ],
+          ),
+          Container(
+            width: 100.0,
+            height: 30.0,
+          ),
+        ]),
+      ),
     );
   }
 }

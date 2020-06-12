@@ -5,6 +5,7 @@ class result extends StatelessWidget {
   result({
     Key key,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,27 +14,22 @@ class result extends StatelessWidget {
           Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.stretch,
-              children:<Widget>[
+              children: <Widget>[
                 Container(
-                    width: double.infinity,
-                    height: MediaQuery.of(context).size.height,
+                  width: double.infinity,
+                  height: MediaQuery.of(context).size.height,
 //                    alignment: Alignment.center,
 //                  margin: EdgeInsets.all(0.0),
                   child: InkWell(
-                      child:Image.asset('images/result.png',
-                          fit: BoxFit.fill),
-                      onTap:(){
+                      child: Image.asset('images/result.png', fit: BoxFit.fill),
+                      onTap: () {
                         Navigator.push(context, MaterialPageRoute<void>(
-                            builder:(BuildContext context){
-                              return MyApp();
-                            }
-                        ));
-                      }
-                  ),
+                            builder: (BuildContext context) {
+                          return MyApp();
+                        }));
+                      }),
                 ),
-
-              ]
-          ),
+              ]),
         ],
       ),
     );

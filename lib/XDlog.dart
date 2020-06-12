@@ -1,997 +1,996 @@
 import 'package:adobe_xd/specific_rect_clip.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+
 class XDlog extends StatelessWidget {
   XDlog({
     Key key,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
         backgroundColor: const Color(0xfffdfffc),
         body: SingleChildScrollView(
-          child: Column(
-            children: <Widget>[
-              Stack(
-                overflow: Overflow.visible,
-                  children: <Widget>[
-                    Transform.translate(
-                      offset: Offset(-1.0,-1.0),
-                      child: InkWell(
-                          child: Image.asset('images/Backward arrow.png', width:100, height:100),
-                          onTap:(){
-                            Navigator.pop(context);
-                          }
-                      ),
-                    ),
-
-                    Transform.translate(
-                      offset: Offset(103.67, 252.2),
-                      child: Container(
-                        width: 168.7,
-                        height: 8.7,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.elliptical(84.37, 4.35)),
-                          color: const Color(0xffb2f4c9),
-                        ),
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(224.99, 262.98),
-                      child: Container(
-                        width: 28.9,
-                        height: 1.5,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.elliptical(14.45, 0.74)),
-                          color: const Color(0xffb2f4c9),
-                        ),
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(172.7, 270.17),
-                      child: Container(
-                        width: 28.9,
-                        height: 1.5,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.elliptical(14.45, 0.74)),
-                          color: const Color(0xffb2f4c9),
-                        ),
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(114.46, 263.19),
-                      child: Container(
-                        width: 66.0,
-                        height: 3.4,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.elliptical(33.02, 1.7)),
-                          color: const Color(0xffb2f4c9),
-                        ),
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(256.0, 34.33),
-                      child: SizedBox(
-                        width: 102.0,
-                        child: Text(
-                          '분리수거 내역',
-                          style: TextStyle(
-                            fontFamily: 'Noto Sans CJK KR',
-                            fontSize: 14,
-                            color: const Color(0xff00d9b0),
-                            letterSpacing: -0.35000000000000003,
-                            fontWeight: FontWeight.w500,
-                            height: 1.4285714285714286,
-                          ),
-                          textAlign: TextAlign.right,
-                        ),
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(0.0, 221.0),
-                      child: Stack(
-                        children: <Widget>[
-                          Transform.translate(
-                            offset: Offset(-4.0, 69.33),
-                            child: SizedBox(
-                              width: 160.0,
-                              child: Text(
-                                '최근 7일 분리수거량',
-                                style: TextStyle(
-                                  fontFamily: 'Noto Sans CJK KR',
-                                  fontSize: 16,
-                                  color: const Color(0xff626262),
-                                  letterSpacing: -1.2,
-                                  fontWeight: FontWeight.w700,
-                                  height: 1.25,
-                                ),
-                                textAlign: TextAlign.center,
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(-21.0, 328.33),
-                            child: SizedBox(
-                              width: 150.0,
-                              child: Text(
-                                '분리 수거 상세내역',
-                                style: TextStyle(
-                                  fontFamily: 'Noto Sans CJK KR',
-                                  fontSize: 16,
-                                  color: const Color(0xff626262),
-                                  letterSpacing: -1.2,
-                                  fontWeight: FontWeight.w700,
-                                  height: 1.25,
-                                ),
-                                textAlign: TextAlign.right,
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(15.0, 366.0),
-                            child: SpecificRectClip(
-                              rect: Rect.fromLTWH(0, 0, 360, 470),
-                              child: UnconstrainedBox(
-                                alignment: Alignment.topLeft,
-                                child: Container(
-                                  width: 378,
-                                  height: 555,
-                                  child: GridView.count(
-                                    primary: false,
-                                    padding: EdgeInsets.all(0),
-                                    mainAxisSpacing: 20,
-                                    crossAxisSpacing: 2,
-                                    crossAxisCount: 1,
-                                    childAspectRatio: 3.9789,
-                                    children: [
-                                      {},
-                                      {},
-                                      {},
-                                      {},
-                                      {},
-                                    ].map((map) {
-                                      return Transform.translate(
-                                        offset: Offset(-15.0, -342.0),
-                                        child: Stack(
-                                          children: <Widget>[
-                                            Transform.translate(
-                                              offset: Offset(16.0, 340.0),
-                                              child: Text(
-                                                '2020.05.31 일요일',
-                                                style: TextStyle(
-                                                  fontFamily: 'Roboto',
-                                                  fontSize: 13,
-                                                  color: const Color(0xff898989),
-                                                  fontWeight: FontWeight.w700,
-                                                ),
-                                                textAlign: TextAlign.left,
-                                              ),
-                                            ),
-                                            Transform.translate(
-                                              offset: Offset(16.0, 387.0),
-                                              child: SpecificRectClip(
-                                                rect: Rect.fromLTWH(0, 0, 377, 50),
-                                                child: UnconstrainedBox(
-                                                  alignment: Alignment.topLeft,
-                                                  child: Container(
-                                                    width: 377,
-                                                    height: 48,
-                                                    child: GridView.count(
-                                                      primary: false,
-                                                      padding: EdgeInsets.all(0),
-                                                      mainAxisSpacing: 12,
-                                                      crossAxisSpacing: 8,
-                                                      crossAxisCount: 7,
-                                                      childAspectRatio: 0.9792,
-                                                      children: [
-                                                        {},
-                                                        {},
-                                                        {},
-                                                        {},
-                                                        {},
-                                                        {},
-                                                        {},
-                                                      ].map((map) {
-                                                        return Transform.translate(
-                                                          offset: Offset(-26.0, -442.0),
-                                                          child: Stack(
-                                                            children: <Widget>[
-                                                              Transform.translate(
-                                                                offset:
-                                                                Offset(26.0, 442.0),
-                                                                child: Container(
-                                                                  width: 40.0,
-                                                                  height: 40.0,
-                                                                  decoration:
-                                                                  BoxDecoration(
-                                                                    borderRadius:
-                                                                    BorderRadius
-                                                                        .circular(
-                                                                        8.0),
-                                                                    color: const Color(
-                                                                        0xff00d9b0),
-                                                                    border: Border.all(
-                                                                        width: 1.0,
-                                                                        color: const Color(
-                                                                            0xffbce0fd)),
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                              Transform.translate(
-                                                                offset:
-                                                                Offset(49.0, 466.0),
-                                                                child: Container(
-                                                                  width: 24.0,
-                                                                  height: 24.0,
-                                                                  decoration:
-                                                                  BoxDecoration(
-                                                                    borderRadius:
-                                                                    BorderRadius.all(
-                                                                        Radius
-                                                                            .elliptical(
-                                                                            12.0,
-                                                                            12.0)),
-                                                                    color: const Color(
-                                                                        0xff8ae7ab),
-                                                                    border: Border.all(
-                                                                        width: 1.0,
-                                                                        color: const Color(
-                                                                            0xffffffff)),
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                              Transform.translate(
-                                                                offset:
-                                                                Offset(52.0, 464.33),
-                                                                child: SizedBox(
-                                                                  width: 12.0,
-                                                                  child: Text(
-                                                                    '1',
-                                                                    style: TextStyle(
-                                                                      fontFamily:
-                                                                      'Noto Sans CJK KR',
-                                                                      fontSize: 12,
-                                                                      color: const Color(
-                                                                          0xffffffff),
-                                                                      letterSpacing:
-                                                                      -0.30000000000000004,
-                                                                      fontWeight:
-                                                                      FontWeight.w500,
-                                                                      height:
-                                                                      1.6666666666666667,
-                                                                    ),
-                                                                    textAlign:
-                                                                    TextAlign.right,
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                              Transform.translate(
-                                                                offset:
-                                                                Offset(27.0, 446.33),
-                                                                child: SizedBox(
-                                                                  width: 33.0,
-                                                                  child: Text(
-                                                                    'ICON',
-                                                                    style: TextStyle(
-                                                                      fontFamily:
-                                                                      'Noto Sans CJK KR',
-                                                                      fontSize: 12,
-                                                                      color: const Color(
-                                                                          0xffffffff),
-                                                                      letterSpacing:
-                                                                      -0.30000000000000004,
-                                                                      fontWeight:
-                                                                      FontWeight.w500,
-                                                                      height:
-                                                                      1.6666666666666667,
-                                                                    ),
-                                                                    textAlign:
-                                                                    TextAlign.right,
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ],
-                                                          ),
-                                                        );
-                                                      }).toList(),
-                                                    ),
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            Transform.translate(
-                                              offset: Offset(5.0, 361.33),
-                                              child: SizedBox(
-                                                width: 50.0,
-                                                child: Text(
-                                                  '총 00 개',
-                                                  style: TextStyle(
-                                                    fontFamily: 'Noto Sans CJK KR',
-                                                    fontSize: 12,
-                                                    color: const Color(0xff716f6f),
-                                                    letterSpacing: -0.30000000000000004,
-                                                    fontWeight: FontWeight.w500,
-                                                    height: 1.6666666666666667,
-                                                  ),
-                                                  textAlign: TextAlign.right,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      );
-                                    }).toList(),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(46.0, 241.0),
-                            child: Container(
-                              width: 40.0,
-                              height: 21.0,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(8.0),
-                                  topRight: Radius.circular(8.0),
-                                ),
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -1.0),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xff8ae7ab),
-                                    const Color(0xfffdfffc)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(86.0, 212.0),
-                            child: Container(
-                              width: 40.0,
-                              height: 50.0,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(8.0),
-                                  topRight: Radius.circular(8.0),
-                                ),
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -1.0),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xff8ae7ab),
-                                    const Color(0xfffdfffc)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(126.0, 198.0),
-                            child: Container(
-                              width: 40.0,
-                              height: 64.0,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(8.0),
-                                  topRight: Radius.circular(8.0),
-                                ),
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -1.0),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xff8ae7ab),
-                                    const Color(0xfffdfffc)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(166.0, 178.0),
-                            child: Container(
-                              width: 40.0,
-                              height: 84.0,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(8.0),
-                                  topRight: Radius.circular(8.0),
-                                ),
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -1.0),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xff8ae7ab),
-                                    const Color(0xfffdfffc)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(206.0, 158.0),
-                            child: Container(
-                              width: 40.0,
-                              height: 104.0,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(8.0),
-                                  topRight: Radius.circular(8.0),
-                                ),
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -1.0),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xff8ae7ab),
-                                    const Color(0xfffdfffc)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(246.0, 129.0),
-                            child: Container(
-                              width: 40.0,
-                              height: 133.0,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(8.0),
-                                  topRight: Radius.circular(8.0),
-                                ),
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -1.0),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xff8ae7ab),
-                                    const Color(0xfffdfffc)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(286.0, 165.0),
-                            child: Container(
-                              width: 40.0,
-                              height: 97.0,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.only(
-                                  topLeft: Radius.circular(8.0),
-                                  topRight: Radius.circular(8.0),
-                                ),
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -1.0),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xff00d9b0),
-                                    const Color(0xfffdfffc)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(177.0, 153.0),
-                            child: Text(
-                              '34',
-                              style: TextStyle(
-                                fontFamily: 'Roboto',
-                                fontSize: 16,
-                                color: const Color(0xff71d594),
-                              ),
-                              textAlign: TextAlign.left,
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(216.0, 131.0),
-                            child: Text(
-                              '40\n',
-                              style: TextStyle(
-                                fontFamily: 'Roboto',
-                                fontSize: 16,
-                                color: const Color(0xff71d594),
-                              ),
-                              textAlign: TextAlign.left,
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(255.0, 106.0),
-                            child: Text(
-                              '60',
-                              style: TextStyle(
-                                fontFamily: 'Roboto',
-                                fontSize: 16,
-                                color: const Color(0xff71d594),
-                                fontWeight: FontWeight.w700,
-                              ),
-                              textAlign: TextAlign.left,
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(297.0, 144.0),
-                            child: Text(
-                              '38',
-                              style: TextStyle(
-                                fontFamily: 'Roboto',
-                                fontSize: 16,
-                                color: const Color(0xff18dcb7),
-                                fontWeight: FontWeight.w700,
-                              ),
-                              textAlign: TextAlign.left,
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(137.0, 174.0),
-                            child: Text(
-                              '30',
-                              style: TextStyle(
-                                fontFamily: 'Roboto',
-                                fontSize: 16,
-                                color: const Color(0xff71d594),
-                              ),
-                              textAlign: TextAlign.left,
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(97.0, 189.0),
-                            child: Text(
-                              '24',
-                              style: TextStyle(
-                                fontFamily: 'Roboto',
-                                fontSize: 16,
-                                color: const Color(0xff71d594),
-                              ),
-                              textAlign: TextAlign.left,
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(57.0, 216.0),
-                            child: Text(
-                              '13',
-                              style: TextStyle(
-                                fontFamily: 'Roboto',
-                                fontSize: 16,
-                                color: const Color(0xff71d594),
-                              ),
-                              textAlign: TextAlign.left,
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(9.0, -4.0),
-                            child: Stack(
-                              children: <Widget>[
-                                Transform.translate(
-                                  offset: Offset(-241.0, 3.0),
-                                  child: Stack(
-                                    children: <Widget>[
-                                      Transform.translate(
-                                        offset: Offset(287.0, 283.0),
-                                        child: Text(
-                                          '06/07',
-                                          style: TextStyle(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 8,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.2,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                      Transform.translate(
-                                        offset: Offset(293.0, 271.0),
-                                        child: Text(
-                                          '일',
-                                          style: TextStyle(
-                                            fontFamily: 'Noto Sans CJK KR',
-                                            fontSize: 10,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.25,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Transform.translate(
-                                  offset: Offset(-201.0, 3.0),
-                                  child: Stack(
-                                    children: <Widget>[
-                                      Transform.translate(
-                                        offset: Offset(287.0, 283.0),
-                                        child: Text(
-                                          '06/08',
-                                          style: TextStyle(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 8,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.2,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                      Transform.translate(
-                                        offset: Offset(293.0, 271.0),
-                                        child: Text(
-                                          '월',
-                                          style: TextStyle(
-                                            fontFamily: 'Noto Sans CJK KR',
-                                            fontSize: 10,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.25,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Transform.translate(
-                                  offset: Offset(-161.0, 3.0),
-                                  child: Stack(
-                                    children: <Widget>[
-                                      Transform.translate(
-                                        offset: Offset(287.0, 283.0),
-                                        child: Text(
-                                          '06/09',
-                                          style: TextStyle(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 8,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.2,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                      Transform.translate(
-                                        offset: Offset(293.0, 271.0),
-                                        child: Text(
-                                          '화',
-                                          style: TextStyle(
-                                            fontFamily: 'Noto Sans CJK KR',
-                                            fontSize: 10,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.25,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Transform.translate(
-                                  offset: Offset(-121.0, 3.0),
-                                  child: Stack(
-                                    children: <Widget>[
-                                      Transform.translate(
-                                        offset: Offset(287.0, 283.0),
-                                        child: Text(
-                                          '06/10',
-                                          style: TextStyle(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 8,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.2,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                      Transform.translate(
-                                        offset: Offset(293.0, 271.0),
-                                        child: Text(
-                                          '수',
-                                          style: TextStyle(
-                                            fontFamily: 'Noto Sans CJK KR',
-                                            fontSize: 10,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.25,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Transform.translate(
-                                  offset: Offset(-81.0, 3.0),
-                                  child: Stack(
-                                    children: <Widget>[
-                                      Transform.translate(
-                                        offset: Offset(287.0, 283.0),
-                                        child: Text(
-                                          '06/11',
-                                          style: TextStyle(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 8,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.2,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                      Transform.translate(
-                                        offset: Offset(293.0, 271.0),
-                                        child: Text(
-                                          '목',
-                                          style: TextStyle(
-                                            fontFamily: 'Noto Sans CJK KR',
-                                            fontSize: 10,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.25,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Transform.translate(
-                                  offset: Offset(-41.0, 3.0),
-                                  child: Stack(
-                                    children: <Widget>[
-                                      Transform.translate(
-                                        offset: Offset(287.0, 283.0),
-                                        child: Text(
-                                          '06/12',
-                                          style: TextStyle(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 8,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.2,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                      Transform.translate(
-                                        offset: Offset(293.0, 271.0),
-                                        child: Text(
-                                          '금',
-                                          style: TextStyle(
-                                            fontFamily: 'Noto Sans CJK KR',
-                                            fontSize: 10,
-                                            color: const Color(0xffa7a7a7),
-                                            letterSpacing: -0.25,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                                Transform.translate(
-                                  offset: Offset(-1.0, 3.0),
-                                  child: Stack(
-                                    children: <Widget>[
-                                      Transform.translate(
-                                        offset: Offset(287.0, 283.0),
-                                        child: Text(
-                                          '06/13',
-                                          style: TextStyle(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 8,
-                                            color: const Color(0xff00d9b0),
-                                            letterSpacing: -0.2,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                      Transform.translate(
-                                        offset: Offset(293.0, 271.0),
-                                        child: Text(
-                                          '토',
-                                          style: TextStyle(
-                                            fontFamily: 'Noto Sans CJK KR',
-                                            fontSize: 10,
-                                            color: const Color(0xff00d9b0),
-                                            letterSpacing: -0.25,
-                                            fontWeight: FontWeight.w700,
-                                          ),
-                                          textAlign: TextAlign.left,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          Transform.translate(
-                            offset: Offset(302.0, 136.0),
-                            child: Container(
-                              width: 8.0,
-                              height: 8.0,
-                              decoration: BoxDecoration(
-                                borderRadius:
-                                BorderRadius.all(Radius.elliptical(4.0, 4.0)),
-                                color: const Color(0xff00d9b0),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(137.0, 111.0),
+            child: Column(children: <Widget>[
+          Stack(overflow: Overflow.visible, children: <Widget>[
+            Transform.translate(
+              offset: Offset(-1.0, -1.0),
+              child: InkWell(
+                  child: Image.asset('images/Backward arrow.png',
+                      width: 100, height: 100),
+                  onTap: () {
+                    Navigator.pop(context);
+                  }),
+            ),
+            Transform.translate(
+              offset: Offset(103.67, 252.2),
+              child: Container(
+                width: 168.7,
+                height: 8.7,
+                decoration: BoxDecoration(
+                  borderRadius:
+                      BorderRadius.all(Radius.elliptical(84.37, 4.35)),
+                  color: const Color(0xffb2f4c9),
+                ),
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(224.99, 262.98),
+              child: Container(
+                width: 28.9,
+                height: 1.5,
+                decoration: BoxDecoration(
+                  borderRadius:
+                      BorderRadius.all(Radius.elliptical(14.45, 0.74)),
+                  color: const Color(0xffb2f4c9),
+                ),
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(172.7, 270.17),
+              child: Container(
+                width: 28.9,
+                height: 1.5,
+                decoration: BoxDecoration(
+                  borderRadius:
+                      BorderRadius.all(Radius.elliptical(14.45, 0.74)),
+                  color: const Color(0xffb2f4c9),
+                ),
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(114.46, 263.19),
+              child: Container(
+                width: 66.0,
+                height: 3.4,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.elliptical(33.02, 1.7)),
+                  color: const Color(0xffb2f4c9),
+                ),
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(256.0, 34.33),
+              child: SizedBox(
+                width: 102.0,
+                child: Text(
+                  '분리수거 내역',
+                  style: TextStyle(
+                    fontFamily: 'Noto Sans CJK KR',
+                    fontSize: 14,
+                    color: const Color(0xff00d9b0),
+                    letterSpacing: -0.35000000000000003,
+                    fontWeight: FontWeight.w500,
+                    height: 1.4285714285714286,
+                  ),
+                  textAlign: TextAlign.right,
+                ),
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(0.0, 221.0),
+              child: Stack(
+                children: <Widget>[
+                  Transform.translate(
+                    offset: Offset(-4.0, 69.33),
+                    child: SizedBox(
+                      width: 160.0,
                       child: Text(
-                        '',
-                        style: TextStyle(
-                          fontFamily: 'Roboto',
-                          fontSize: 13,
-                          color: const Color(0xff048b72),
-                          fontWeight: FontWeight.w700,
-                        ),
-                        textAlign: TextAlign.left,
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(0.0, -10.0),
-                      child: Stack(
-                        children: <Widget>[
-                    Transform.translate(
-                      offset: Offset(-1.98, 217.97),
-                      child: SvgPicture.string(
-                        _svg_b6kdk0,
-                        allowDrawingOutsideViewBox: true,
-                      ),
-                    ),
-                          Transform.translate(
-                            offset: Offset(0.0, 86.0),
-                            child: Container(
-                              width: 375.0,
-                              height: 203.0,
-                              decoration: BoxDecoration(
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -0.56),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xfffcfcfc),
-                                    const Color(0x4d8ae7ab)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                    Transform.translate(
-                      offset: Offset(-2.37, 139.82),
-                      child: SvgPicture.string(
-                        _svg_e2te34,
-                        allowDrawingOutsideViewBox: true,
-                      ),
-                    ),
-                          Transform(
-                            transform: Matrix4(
-                                0.01178,
-                                -0.99993,
-                                0.0,
-                                0.0,
-                                0.99993,
-                                0.01178,
-                                0.0,
-                                0.0,
-                                0.0,
-                                0.0,
-                                1.0,
-                                0.0,
-                                93.99,
-                                255.7,
-                                0.0,
-                                1.0),
-                            child: Container(
-                              width: 3.4,
-                              height: 8.8,
-                              decoration: BoxDecoration(
-                                borderRadius:
-                                BorderRadius.all(Radius.elliptical(1.68, 4.39)),
-                                color: const Color(0xff2f2e41),
-                              ),
-                            ),
-                          ),
-                    Transform.translate(
-                      offset: Offset(86.0, 234.85),
-                      child: SvgPicture.string(
-                        _svg_9pkfqm,
-                        allowDrawingOutsideViewBox: true,
-                      ),
-                    ),
-                          Transform.translate(
-                            offset: Offset(0.0, 86.0),
-                            child: Container(
-                              width: 375.0,
-                              height: 203.0,
-                              decoration: BoxDecoration(
-                                gradient: LinearGradient(
-                                  begin: Alignment(0.0, -0.56),
-                                  end: Alignment(0.0, 1.0),
-                                  colors: [
-                                    const Color(0xfffcfcfc),
-                                    const Color(0x4d8ae7ab)
-                                  ],
-                                  stops: [0.0, 1.0],
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(155.5, 123.0),
-                      child: Text(
-                        '00',
-                        style: TextStyle(
-                          fontFamily: 'Roboto',
-                          fontSize: 56,
-                          color: const Color(0xff00d9b0),
-                          letterSpacing: -1.4000000000000001,
-                          fontWeight: FontWeight.w700,
-                        ),
-                        textAlign: TextAlign.left,
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(126.0, 110.0),
-                      child: Text(
-                        '분리수거로 살린나무',
+                        '최근 7일 분리수거량',
                         style: TextStyle(
                           fontFamily: 'Noto Sans CJK KR',
                           fontSize: 16,
-                          color: const Color(0xff099178),
+                          color: const Color(0xff626262),
                           letterSpacing: -1.2,
                           fontWeight: FontWeight.w700,
+                          height: 1.25,
                         ),
-                        textAlign: TextAlign.left,
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                    Transform.translate(
-                      offset: Offset(218.0, 160.0),
+                  ),
+                  Transform.translate(
+                    offset: Offset(-21.0, 328.33),
+                    child: SizedBox(
+                      width: 150.0,
                       child: Text(
-                        '그루',
+                        '분리 수거 상세내역',
                         style: TextStyle(
                           fontFamily: 'Noto Sans CJK KR',
                           fontSize: 16,
-                          color: const Color(0xff00d9b0),
-                          letterSpacing: -0.4,
+                          color: const Color(0xff626262),
+                          letterSpacing: -1.2,
                           fontWeight: FontWeight.w700,
+                          height: 1.25,
                         ),
-                        textAlign: TextAlign.left,
+                        textAlign: TextAlign.right,
                       ),
                     ),
-                  ]
+                  ),
+                  Transform.translate(
+                    offset: Offset(15.0, 366.0),
+                    child: SpecificRectClip(
+                      rect: Rect.fromLTWH(0, 0, 360, 470),
+                      child: UnconstrainedBox(
+                        alignment: Alignment.topLeft,
+                        child: Container(
+                          width: 378,
+                          height: 555,
+                          child: GridView.count(
+                            primary: false,
+                            padding: EdgeInsets.all(0),
+                            mainAxisSpacing: 20,
+                            crossAxisSpacing: 2,
+                            crossAxisCount: 1,
+                            childAspectRatio: 3.9789,
+                            children: [
+                              {},
+                              {},
+                              {},
+                              {},
+                              {},
+                            ].map((map) {
+                              return Transform.translate(
+                                offset: Offset(-15.0, -342.0),
+                                child: Stack(
+                                  children: <Widget>[
+                                    Transform.translate(
+                                      offset: Offset(16.0, 340.0),
+                                      child: Text(
+                                        '2020.05.31 일요일',
+                                        style: TextStyle(
+                                          fontFamily: 'Roboto',
+                                          fontSize: 13,
+                                          color: const Color(0xff898989),
+                                          fontWeight: FontWeight.w700,
+                                        ),
+                                        textAlign: TextAlign.left,
+                                      ),
+                                    ),
+                                    Transform.translate(
+                                      offset: Offset(16.0, 387.0),
+                                      child: SpecificRectClip(
+                                        rect: Rect.fromLTWH(0, 0, 377, 50),
+                                        child: UnconstrainedBox(
+                                          alignment: Alignment.topLeft,
+                                          child: Container(
+                                            width: 377,
+                                            height: 48,
+                                            child: GridView.count(
+                                              primary: false,
+                                              padding: EdgeInsets.all(0),
+                                              mainAxisSpacing: 12,
+                                              crossAxisSpacing: 8,
+                                              crossAxisCount: 7,
+                                              childAspectRatio: 0.9792,
+                                              children: [
+                                                {},
+                                                {},
+                                                {},
+                                                {},
+                                                {},
+                                                {},
+                                                {},
+                                              ].map((map) {
+                                                return Transform.translate(
+                                                  offset: Offset(-26.0, -442.0),
+                                                  child: Stack(
+                                                    children: <Widget>[
+                                                      Transform.translate(
+                                                        offset:
+                                                            Offset(26.0, 442.0),
+                                                        child: Container(
+                                                          width: 40.0,
+                                                          height: 40.0,
+                                                          decoration:
+                                                              BoxDecoration(
+                                                            borderRadius:
+                                                                BorderRadius
+                                                                    .circular(
+                                                                        8.0),
+                                                            color: const Color(
+                                                                0xff00d9b0),
+                                                            border: Border.all(
+                                                                width: 1.0,
+                                                                color: const Color(
+                                                                    0xffbce0fd)),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      Transform.translate(
+                                                        offset:
+                                                            Offset(49.0, 466.0),
+                                                        child: Container(
+                                                          width: 24.0,
+                                                          height: 24.0,
+                                                          decoration:
+                                                              BoxDecoration(
+                                                            borderRadius: BorderRadius
+                                                                .all(Radius
+                                                                    .elliptical(
+                                                                        12.0,
+                                                                        12.0)),
+                                                            color: const Color(
+                                                                0xff8ae7ab),
+                                                            border: Border.all(
+                                                                width: 1.0,
+                                                                color: const Color(
+                                                                    0xffffffff)),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      Transform.translate(
+                                                        offset: Offset(
+                                                            52.0, 464.33),
+                                                        child: SizedBox(
+                                                          width: 12.0,
+                                                          child: Text(
+                                                            '1',
+                                                            style: TextStyle(
+                                                              fontFamily:
+                                                                  'Noto Sans CJK KR',
+                                                              fontSize: 12,
+                                                              color: const Color(
+                                                                  0xffffffff),
+                                                              letterSpacing:
+                                                                  -0.30000000000000004,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w500,
+                                                              height:
+                                                                  1.6666666666666667,
+                                                            ),
+                                                            textAlign:
+                                                                TextAlign.right,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      Transform.translate(
+                                                        offset: Offset(
+                                                            27.0, 446.33),
+                                                        child: SizedBox(
+                                                          width: 33.0,
+                                                          child: Text(
+                                                            'ICON',
+                                                            style: TextStyle(
+                                                              fontFamily:
+                                                                  'Noto Sans CJK KR',
+                                                              fontSize: 12,
+                                                              color: const Color(
+                                                                  0xffffffff),
+                                                              letterSpacing:
+                                                                  -0.30000000000000004,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w500,
+                                                              height:
+                                                                  1.6666666666666667,
+                                                            ),
+                                                            textAlign:
+                                                                TextAlign.right,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                );
+                                              }).toList(),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    Transform.translate(
+                                      offset: Offset(5.0, 361.33),
+                                      child: SizedBox(
+                                        width: 50.0,
+                                        child: Text(
+                                          '총 00 개',
+                                          style: TextStyle(
+                                            fontFamily: 'Noto Sans CJK KR',
+                                            fontSize: 12,
+                                            color: const Color(0xff716f6f),
+                                            letterSpacing: -0.30000000000000004,
+                                            fontWeight: FontWeight.w500,
+                                            height: 1.6666666666666667,
+                                          ),
+                                          textAlign: TextAlign.right,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              );
+                            }).toList(),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(46.0, 241.0),
+                    child: Container(
+                      width: 40.0,
+                      height: 21.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(8.0),
+                          topRight: Radius.circular(8.0),
+                        ),
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -1.0),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xff8ae7ab),
+                            const Color(0xfffdfffc)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(86.0, 212.0),
+                    child: Container(
+                      width: 40.0,
+                      height: 50.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(8.0),
+                          topRight: Radius.circular(8.0),
+                        ),
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -1.0),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xff8ae7ab),
+                            const Color(0xfffdfffc)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(126.0, 198.0),
+                    child: Container(
+                      width: 40.0,
+                      height: 64.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(8.0),
+                          topRight: Radius.circular(8.0),
+                        ),
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -1.0),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xff8ae7ab),
+                            const Color(0xfffdfffc)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(166.0, 178.0),
+                    child: Container(
+                      width: 40.0,
+                      height: 84.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(8.0),
+                          topRight: Radius.circular(8.0),
+                        ),
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -1.0),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xff8ae7ab),
+                            const Color(0xfffdfffc)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(206.0, 158.0),
+                    child: Container(
+                      width: 40.0,
+                      height: 104.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(8.0),
+                          topRight: Radius.circular(8.0),
+                        ),
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -1.0),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xff8ae7ab),
+                            const Color(0xfffdfffc)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(246.0, 129.0),
+                    child: Container(
+                      width: 40.0,
+                      height: 133.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(8.0),
+                          topRight: Radius.circular(8.0),
+                        ),
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -1.0),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xff8ae7ab),
+                            const Color(0xfffdfffc)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(286.0, 165.0),
+                    child: Container(
+                      width: 40.0,
+                      height: 97.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(8.0),
+                          topRight: Radius.circular(8.0),
+                        ),
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -1.0),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xff00d9b0),
+                            const Color(0xfffdfffc)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(177.0, 153.0),
+                    child: Text(
+                      '34',
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        fontSize: 16,
+                        color: const Color(0xff71d594),
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(216.0, 131.0),
+                    child: Text(
+                      '40\n',
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        fontSize: 16,
+                        color: const Color(0xff71d594),
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(255.0, 106.0),
+                    child: Text(
+                      '60',
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        fontSize: 16,
+                        color: const Color(0xff71d594),
+                        fontWeight: FontWeight.w700,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(297.0, 144.0),
+                    child: Text(
+                      '38',
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        fontSize: 16,
+                        color: const Color(0xff18dcb7),
+                        fontWeight: FontWeight.w700,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(137.0, 174.0),
+                    child: Text(
+                      '30',
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        fontSize: 16,
+                        color: const Color(0xff71d594),
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(97.0, 189.0),
+                    child: Text(
+                      '24',
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        fontSize: 16,
+                        color: const Color(0xff71d594),
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(57.0, 216.0),
+                    child: Text(
+                      '13',
+                      style: TextStyle(
+                        fontFamily: 'Roboto',
+                        fontSize: 16,
+                        color: const Color(0xff71d594),
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(9.0, -4.0),
+                    child: Stack(
+                      children: <Widget>[
+                        Transform.translate(
+                          offset: Offset(-241.0, 3.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(287.0, 283.0),
+                                child: Text(
+                                  '06/07',
+                                  style: TextStyle(
+                                    fontFamily: 'Roboto',
+                                    fontSize: 8,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.2,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(293.0, 271.0),
+                                child: Text(
+                                  '일',
+                                  style: TextStyle(
+                                    fontFamily: 'Noto Sans CJK KR',
+                                    fontSize: 10,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.25,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(-201.0, 3.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(287.0, 283.0),
+                                child: Text(
+                                  '06/08',
+                                  style: TextStyle(
+                                    fontFamily: 'Roboto',
+                                    fontSize: 8,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.2,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(293.0, 271.0),
+                                child: Text(
+                                  '월',
+                                  style: TextStyle(
+                                    fontFamily: 'Noto Sans CJK KR',
+                                    fontSize: 10,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.25,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(-161.0, 3.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(287.0, 283.0),
+                                child: Text(
+                                  '06/09',
+                                  style: TextStyle(
+                                    fontFamily: 'Roboto',
+                                    fontSize: 8,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.2,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(293.0, 271.0),
+                                child: Text(
+                                  '화',
+                                  style: TextStyle(
+                                    fontFamily: 'Noto Sans CJK KR',
+                                    fontSize: 10,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.25,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(-121.0, 3.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(287.0, 283.0),
+                                child: Text(
+                                  '06/10',
+                                  style: TextStyle(
+                                    fontFamily: 'Roboto',
+                                    fontSize: 8,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.2,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(293.0, 271.0),
+                                child: Text(
+                                  '수',
+                                  style: TextStyle(
+                                    fontFamily: 'Noto Sans CJK KR',
+                                    fontSize: 10,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.25,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(-81.0, 3.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(287.0, 283.0),
+                                child: Text(
+                                  '06/11',
+                                  style: TextStyle(
+                                    fontFamily: 'Roboto',
+                                    fontSize: 8,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.2,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(293.0, 271.0),
+                                child: Text(
+                                  '목',
+                                  style: TextStyle(
+                                    fontFamily: 'Noto Sans CJK KR',
+                                    fontSize: 10,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.25,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(-41.0, 3.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(287.0, 283.0),
+                                child: Text(
+                                  '06/12',
+                                  style: TextStyle(
+                                    fontFamily: 'Roboto',
+                                    fontSize: 8,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.2,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(293.0, 271.0),
+                                child: Text(
+                                  '금',
+                                  style: TextStyle(
+                                    fontFamily: 'Noto Sans CJK KR',
+                                    fontSize: 10,
+                                    color: const Color(0xffa7a7a7),
+                                    letterSpacing: -0.25,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(-1.0, 3.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(287.0, 283.0),
+                                child: Text(
+                                  '06/13',
+                                  style: TextStyle(
+                                    fontFamily: 'Roboto',
+                                    fontSize: 8,
+                                    color: const Color(0xff00d9b0),
+                                    letterSpacing: -0.2,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(293.0, 271.0),
+                                child: Text(
+                                  '토',
+                                  style: TextStyle(
+                                    fontFamily: 'Noto Sans CJK KR',
+                                    fontSize: 10,
+                                    color: const Color(0xff00d9b0),
+                                    letterSpacing: -0.25,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.left,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(302.0, 136.0),
+                    child: Container(
+                      width: 8.0,
+                      height: 8.0,
+                      decoration: BoxDecoration(
+                        borderRadius:
+                            BorderRadius.all(Radius.elliptical(4.0, 4.0)),
+                        color: const Color(0xff00d9b0),
+                      ),
+                    ),
+                  ),
+                ],
               ),
-              Container(
-                width: 100,
-                height: 300,
+            ),
+            Transform.translate(
+              offset: Offset(137.0, 111.0),
+              child: Text(
+                '',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 13,
+                  color: const Color(0xff048b72),
+                  fontWeight: FontWeight.w700,
+                ),
+                textAlign: TextAlign.left,
               ),
-            ]
-          )
-        )
-    );
+            ),
+            Transform.translate(
+              offset: Offset(0.0, -10.0),
+              child: Stack(
+                children: <Widget>[
+                  Transform.translate(
+                    offset: Offset(-1.98, 217.97),
+                    child: SvgPicture.string(
+                      _svg_b6kdk0,
+                      allowDrawingOutsideViewBox: true,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(0.0, 86.0),
+                    child: Container(
+                      width: 375.0,
+                      height: 203.0,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -0.56),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xfffcfcfc),
+                            const Color(0x4d8ae7ab)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(-2.37, 139.82),
+                    child: SvgPicture.string(
+                      _svg_e2te34,
+                      allowDrawingOutsideViewBox: true,
+                    ),
+                  ),
+                  Transform(
+                    transform: Matrix4(
+                        0.01178,
+                        -0.99993,
+                        0.0,
+                        0.0,
+                        0.99993,
+                        0.01178,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        93.99,
+                        255.7,
+                        0.0,
+                        1.0),
+                    child: Container(
+                      width: 3.4,
+                      height: 8.8,
+                      decoration: BoxDecoration(
+                        borderRadius:
+                            BorderRadius.all(Radius.elliptical(1.68, 4.39)),
+                        color: const Color(0xff2f2e41),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(86.0, 234.85),
+                    child: SvgPicture.string(
+                      _svg_9pkfqm,
+                      allowDrawingOutsideViewBox: true,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(0.0, 86.0),
+                    child: Container(
+                      width: 375.0,
+                      height: 203.0,
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment(0.0, -0.56),
+                          end: Alignment(0.0, 1.0),
+                          colors: [
+                            const Color(0xfffcfcfc),
+                            const Color(0x4d8ae7ab)
+                          ],
+                          stops: [0.0, 1.0],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(155.5, 123.0),
+              child: Text(
+                '00',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 56,
+                  color: const Color(0xff00d9b0),
+                  letterSpacing: -1.4000000000000001,
+                  fontWeight: FontWeight.w700,
+                ),
+                textAlign: TextAlign.left,
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(126.0, 110.0),
+              child: Text(
+                '분리수거로 살린나무',
+                style: TextStyle(
+                  fontFamily: 'Noto Sans CJK KR',
+                  fontSize: 16,
+                  color: const Color(0xff099178),
+                  letterSpacing: -1.2,
+                  fontWeight: FontWeight.w700,
+                ),
+                textAlign: TextAlign.left,
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(218.0, 160.0),
+              child: Text(
+                '그루',
+                style: TextStyle(
+                  fontFamily: 'Noto Sans CJK KR',
+                  fontSize: 16,
+                  color: const Color(0xff00d9b0),
+                  letterSpacing: -0.4,
+                  fontWeight: FontWeight.w700,
+                ),
+                textAlign: TextAlign.left,
+              ),
+            ),
+          ]),
+          Container(
+            width: 100,
+            height: 300,
+          ),
+        ])));
   }
 }
+
 const String _svg_b6kdk0 =
     '<svg viewBox="-2.0 218.0 122.9 71.2" ><path transform="translate(-112.15, -68.74)" d="M 233.0506134033203 357.9142456054688 C 233.0506134033203 357.9142456054688 176.3661499023438 338.28955078125 160.0229949951172 316.8977966308594 C 141.3781585693359 292.4913024902344 115.8003997802734 287.3498229980469 112.4250030517578 286.70849609375 L 112.4250030517578 350.1318664550781 C 112.4250030517578 354.4296264648438 107.3531036376953 357.9142456054688 112.4250030517578 357.9142456054688 L 233.0506134033203 357.9142456054688 Z" fill="#a5fcc0" stroke="none" stroke-width="1" stroke-miterlimit="10" stroke-linecap="butt" /></svg>';
 const String _svg_e2te34 =

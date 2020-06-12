@@ -49,34 +49,35 @@ class MyStatefulWidget extends StatefulWidget {
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
   static var con;
-  TextStyle optionStyle =
-      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+  TextStyle optionStyle = TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   List<Widget> _widgetOptions = <Widget>[
     Home(),
-    InkWell(onTap: () async {
+    InkWell(
+        child: Icon(Icons.camera_alt),
+        onTap: () async {
 //						PickedFile pickedFile =await _picker.getImage(source: ImageSource.gallery);
-      List<Asset> images = await MultiImagePicker.pickImages(maxImages: 10
+          List<Asset> images = await MultiImagePicker.pickImages(maxImages: 10
 //							,enableCamera: true,
 //							selectedAssets: _resultList,
-          );
-      List<ResultElement> resEl = [];
-      for (int i = 0; i < images.length; i++) {
-        Asset image = images[i];
-        var bytes = await image.getByteData();
-        var byte = bytes.buffer
-            .asUint8List(bytes.offsetInBytes, bytes.lengthInBytes)
-            .toList();
-        var client = http.Client();
-        var res = await client.post('http://mbs-b.com:1000/test',
-            headers: {"Content-Type": "application/json"},
-            body: json.encode({'data': base64.encode(byte)}));
+              );
+          List<ResultElement> resEl = [];
+          for (int i = 0; i < images.length; i++) {
+            Asset image = images[i];
+            var bytes = await image.getByteData();
+            var byte = bytes.buffer
+                .asUint8List(bytes.offsetInBytes, bytes.lengthInBytes)
+                .toList();
+            var client = http.Client();
+            var res = await client.post('http://mbs-b.com:1000/test',
+                headers: {"Content-Type": "application/json"},
+                body: json.encode({'data': base64.encode(byte)}));
 //							await client.get(res.body)
-        resEl.add(ResultElement(image, res.body));
-      }
+            resEl.add(ResultElement(image, res.body));
+          }
 //						images.map((e) => ResultElement(e,"타입"))
-      Navigator.push(
-          con, MaterialPageRoute(builder: (context) => Result(resEl)));
-    }),
+          Navigator.push(
+              con, MaterialPageRoute(builder: (context) => Result(resEl)));
+        }),
     XDprofile3(),
   ];
 
@@ -88,7 +89,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 
   @override
   Widget build(BuildContext context) {
-    con=context;
+    con = context;
     return Scaffold(
 //      appBar: AppBar(
 //        title: const Text('BottomNavigationBar Sample'),

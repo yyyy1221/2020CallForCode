@@ -22,8 +22,9 @@ class ResultElement {
 }
 
 class XDver21 extends State<Result> {
-  int ind=0;
+  int ind = 0;
   List<ResultElement> _resultList;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,8 +37,6 @@ class XDver21 extends State<Result> {
                 // Adobe XD layer: 'song' (group)
                 Stack(
               children: <Widget>[
-
-
                 Transform.translate(
                   offset: Offset(93.0, 215.0),
                   child: Text(
@@ -51,19 +50,15 @@ class XDver21 extends State<Result> {
                     textAlign: TextAlign.left,
                   ),
                 ),
-
               ],
             ),
           ),
-
           Transform.translate(
             offset: Offset(-44.0, 601.0),
             child:
                 // Adobe XD layer: 'song' (group)
                 Stack(
               children: <Widget>[
-
-
                 Transform.translate(
                   offset: Offset(93.0, 217.0),
                   child: Text(
@@ -98,8 +93,6 @@ class XDver21 extends State<Result> {
                 // Adobe XD layer: 'song' (group)
                 Stack(
               children: <Widget>[
-
-
                 Transform.translate(
                   offset: Offset(93.0, 217.0),
                   child: Text(
@@ -128,7 +121,6 @@ class XDver21 extends State<Result> {
               ],
             ),
           ),
-
           Transform.translate(
             offset: Offset(41.0, 689.0),
             child: Container(
@@ -240,8 +232,6 @@ class XDver21 extends State<Result> {
               textAlign: TextAlign.left,
             ),
           ),
-
-
           Transform.translate(
             offset: Offset(16.0, 39.0),
             child: PageLink(
@@ -258,7 +248,6 @@ class XDver21 extends State<Result> {
                   Container(),
             ),
           ),
-
           Transform.translate(
             offset: Offset(329.5, 438.33),
             child: Text.rich(
@@ -278,14 +267,14 @@ class XDver21 extends State<Result> {
                     ),
                   ),
                   TextSpan(
-                    text: (ind+1).toString(),
+                    text: (ind + 1).toString(),
                     style: TextStyle(
                       color: const Color(0xffb9b9b9),
                       fontWeight: FontWeight.w500,
                     ),
                   ),
                   TextSpan(
-                    text: '/'+_resultList.length.toString(),
+                    text: '/' + _resultList.length.toString(),
                     style: TextStyle(
                       color: const Color(0xff363636),
                       fontWeight: FontWeight.w500,
@@ -316,23 +305,21 @@ class XDver21 extends State<Result> {
             child: Stack(
               children: <Widget>[
                 Transform.translate(
-                  offset: Offset(34.43, 214.5),
-                  child: InkWell(
-                    onTap: (){
-                      setState(() {
-                        ind=ind<_resultList.length?ind+1:0;
-                      });
-                    },
-                    child: SvgPicture.string(
-                      _svg_2mvufk,
-                      allowDrawingOutsideViewBox: true,
-                    ),
-                  )
-                ),
+                    offset: Offset(34.43, 214.5),
+                    child: InkWell(
+                      onTap: () {
+                        setState(() {
+                          ind = ind < _resultList.length ? ind + 1 : 0;
+                        });
+                      },
+                      child: SvgPicture.string(
+                        _svg_2mvufk,
+                        allowDrawingOutsideViewBox: true,
+                      ),
+                    )),
               ],
             ),
           ),
-
           buildGridView()
         ],
       ),
@@ -341,36 +328,33 @@ class XDver21 extends State<Result> {
 
   Widget buildGridView() {
     return Container(
-      margin: EdgeInsets.fromLTRB(30, 480, 30, 0),
-      height: 500,
-      child: GridView.count(
-        mainAxisSpacing: 30,
-        crossAxisSpacing: 30,
-        scrollDirection: Axis.vertical,
-        shrinkWrap: true,
-        crossAxisCount: 2,
-        children: List.generate(_resultList.length, (index) {
-          var k=_resultList[index];
-          Asset asset =k.assets;
-          return Column(
-            children: <Widget>[
-              AssetThumb(
-                asset: asset,
-                width: 300,
-                height: 300,
-              ),
-              Container(
-                child: Column(
-                  children: <Widget>[
-                    Text(k.type)
-                  ],
+        margin: EdgeInsets.fromLTRB(30, 480, 30, 0),
+        height: 500,
+        child: GridView.count(
+          mainAxisSpacing: 30,
+          crossAxisSpacing: 30,
+          scrollDirection: Axis.vertical,
+          shrinkWrap: true,
+          crossAxisCount: 2,
+          children: List.generate(_resultList.length, (index) {
+            var k = _resultList[index];
+            Asset asset = k.assets;
+            return Column(
+              children: <Widget>[
+                AssetThumb(
+                  asset: asset,
+                  width: 300,
+                  height: 300,
                 ),
-              )
-            ],
-          );
-        }),
-      )
-    );
+                Container(
+                  child: Column(
+                    children: <Widget>[Text(k.type)],
+                  ),
+                )
+              ],
+            );
+          }),
+        ));
   }
 
   XDver21(this._resultList);

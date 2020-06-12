@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import './XDlog.dart';
 
-
 class XDprofile3 extends StatelessWidget {
   XDprofile3({
     Key key,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,27 +14,23 @@ class XDprofile3 extends StatelessWidget {
           Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.stretch,
-              children:<Widget>[
+              children: <Widget>[
                 Container(
                   width: double.infinity,
-                  height:  MediaQuery.of(context).size.height - 60,
+                  height: MediaQuery.of(context).size.height - 60,
 //                    alignment: Alignment.center,
 //                  margin: EdgeInsets.all(0.0),
                   child: InkWell(
-                      child:Image.asset('images/profile_page.png',
+                      child: Image.asset('images/profile_page.png',
                           fit: BoxFit.fill),
-                      onTap:(){
+                      onTap: () {
                         Navigator.push(context, MaterialPageRoute<void>(
-                            builder:(BuildContext context){
-                              return XDlog();
-                            }
-                        ));
-                      }
-                  ),
+                            builder: (BuildContext context) {
+                          return XDlog();
+                        }));
+                      }),
                 ),
-
-              ]
-          ),
+              ]),
         ],
       ),
     );

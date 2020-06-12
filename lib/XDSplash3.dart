@@ -1,31 +1,29 @@
 import 'package:flutter/material.dart';
 import './MyApp.dart';
+
 class XDSplash3 extends StatelessWidget {
   XDSplash3({
     Key key,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xff8ae7ab),
       body: Center(
-        child:
-          InkWell(
+        child: InkWell(
 //           offset: Offset(107.0, 274.0),
-            child: Image.asset('images/logo.png', width:167.0, height:167.0),
-            onTap: (){
-
-              Navigator.push(context, MaterialPageRoute<void>(
-              settings: RouteSettings(
-
-              )
-              ,
-              builder: (BuildContext context){
-                return MyApp();
-              })
-              );
-            },
-          ),
+          child: Image.asset('images/logo.png', width: 167.0, height: 167.0),
+          onTap: () {
+            Navigator.push(
+                context,
+                MaterialPageRoute<void>(
+                    settings: RouteSettings(),
+                    builder: (BuildContext context) {
+                      return MyApp();
+                    }));
+          },
+        ),
       ),
 //    return Scaffold(
 //      backgroundColor: const Color(0xff8ae7ab),

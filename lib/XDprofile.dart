@@ -6,6 +6,7 @@ class XDprofile extends StatelessWidget {
   XDprofile({
     Key key,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
