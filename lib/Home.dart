@@ -40,8 +40,12 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: const Color(0xfffdfffc),
-        body: Stack(
+        body: SingleChildScrollView(
+        child: Column(
           children: <Widget>[
+            Stack(
+              overflow: Overflow.visible,
+              children: <Widget>[
             Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -53,7 +57,7 @@ class Home extends StatelessWidget {
                   height: 20.0,
                   margin: EdgeInsets.only(left:15.0),
                   child: Text(
-                    'APP NAME',
+                    'Re-Earth',
                     style: TextStyle(
                       fontFamily: 'Roboto',
                       fontSize: 20,
@@ -143,6 +147,12 @@ class Home extends StatelessWidget {
 //            ),
         ],
         ),
+        Container(
+          width:100.0,
+          height:30.0,
+        ),
+          ]),
+    ),
     );
   }
 }

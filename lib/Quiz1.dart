@@ -29,7 +29,6 @@ class Quiz1 extends State<MyStateFul> {
 //  Quiz1({
 //    Key key,
 //  }) : super(key: key);
-  int _currValue = 1;
   int groupValue;
 
   void something(int e) {
@@ -40,7 +39,7 @@ class Quiz1 extends State<MyStateFul> {
       } else if (e == 4) {
         answer = 1;
       }
-      ;
+
     });
   }
 
@@ -160,10 +159,7 @@ class Quiz1 extends State<MyStateFul> {
                 margin: EdgeInsets.all(20.0),
                 child: RaisedButton(
                     color: Colors.tealAccent[400],
-                    child: Text('확인',
-                        style: TextStyle(
-                            color:
-                                groupValue == 4 ? Color(0x00) : Color(0x00))),
+                    child: Text('확인'),
                     onPressed: () {
                       if (answer == 1) {
                         Navigator.push(context, MaterialPageRoute<void>(
