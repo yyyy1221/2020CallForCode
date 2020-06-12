@@ -1,0 +1,15 @@
+<svg id="nearby" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="57" viewBox="0 0 120 57">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_216" data-name="그룹 216" transform="translate(24 11)">
+    <rect id="XMLID_4_" width="72" height="20" transform="translate(0 26)" fill="none"/>
+    <text id="Nearby-2" data-name="Nearby" transform="translate(21 37.969)" fill="#b9b9b9" font-size="12" font-family="MalgunGothic, Malgun Gothic" opacity="0.54"><tspan x="0" y="0">프로필</tspan></text>
+  </g>
+  <g id="Profile" transform="translate(48 10)" clip-path="url(#clip-path)">
+    <path id="합치기_1" data-name="합치기 1" d="M0,24V21c0-3.3,5.4-6,12-6s12,2.7,12,6v3ZM6,6a6,6,0,1,1,6,6A6,6,0,0,1,6,6Z" fill="#b9b9b9"/>
+  </g>
+  <rect id="사각형_134" data-name="사각형 134" width="120" height="56" fill="none"/>
+</svg>

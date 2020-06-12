@@ -1,0 +1,18 @@
+<svg id="favorites" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="56" viewBox="0 0 120 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="16" height="15.999" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_220" data-name="그룹 220" transform="translate(24 8)">
+    <rect id="XMLID_2_" width="72" height="20" transform="translate(0.182 28)" fill="none"/>
+    <text id="Favorites-2" data-name="Favorites" transform="translate(21.182 39.969)" fill="#b9b9b9" font-size="12" font-family="MalgunGothic, Malgun Gothic"><tspan x="0" y="0">올리기</tspan></text>
+  </g>
+  <rect id="사각형_135" data-name="사각형 135" width="120" height="56" fill="none"/>
+  <g id="_" data-name="+" transform="translate(48.182 9)">
+    <circle id="타원_226" data-name="타원 226" cx="12" cy="12" r="12" fill="#b9b9b9"/>
+    <g id="_2" data-name="+" transform="translate(4 4)" clip-path="url(#clip-path)">
+      <path id="합치기_1" data-name="합치기 1" d="M7,16V9H0V7H7V0H9V7h7V9H9v7Z" transform="translate(0 0)" fill="#fdfffc"/>
+    </g>
+  </g>
+</svg>

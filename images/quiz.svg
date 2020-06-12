@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="162" viewBox="0 0 360 162">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#41e7cd"/>
+      <stop offset="1" stop-color="#41bfe7"/>
+    </linearGradient>
+    <filter id="사각형_705" x="0" y="0" width="360" height="162" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#008100" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="퀴즈" x="14" y="9" width="66" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.878" y1="1.009" x2="-0.038" y2="-0.24" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b5fff0"/>
+      <stop offset="1" stop-color="#fffff1"/>
+    </linearGradient>
+    <filter id="패스_256" x="130.416" y="24.352" width="97.942" height="101.301" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.334" y1="-1.804" x2="0.661" y2="2.492" xlink:href="#linear-gradient-2"/>
+    <filter id="사각형_1007" x="169.45" y="93.283" width="49.087" height="35.745" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_1008" x="173.193" y="101.81" width="49.087" height="35.745" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.243" y1="-0.118" x2="0.901" y2="1.303" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="1.008" y1="1.008" x2="0.096" y2="0.096" gradientUnits="objectBoundingBox">
+      <stop offset="0.354" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fffff1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.596" y1="0.409" x2="0.073" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a86f2"/>
+      <stop offset="1" stop-color="#e0efff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.596" y1="0.409" x2="0.073" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a86f2"/>
+      <stop offset="1" stop-color="#1988ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.404" y1="0.409" x2="0.927" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a86f2"/>
+      <stop offset="1" stop-color="#0a80ff"/>
+    </linearGradient>
+  </defs>
+  <g id="그룹_261" data-name="그룹 261" transform="translate(-7 -288)">
+    <g transform="matrix(1, 0, 0, 1, 7, 288)" filter="url(#사각형_705)">
+      <rect id="사각형_705-2" data-name="사각형 705" width="342" height="144" rx="12" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 7, 288)" filter="url(#퀴즈)">
+      <text id="퀴즈-2" data-name="퀴즈" transform="translate(23 41)" fill="#fff" font-size="24" font-family="MalgunGothicBold, Malgun Gothic" letter-spacing="-0.025em"><tspan x="0" y="0">퀴즈</tspan></text>
+    </g>
+    <text id="_2020.06.12" data-name="2020.06.12" transform="translate(279 315)" fill="#fff" font-size="13" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.025em"><tspan x="0" y="0">2020.06.12</tspan></text>
+    <g id="그룹_248" data-name="그룹 248" transform="translate(-129.199 592.258) rotate(-22)">
+      <g transform="matrix(0.93, 0.37, -0.37, 0.93, 240.26, -231.08)" filter="url(#패스_256)">
+        <path id="패스_256-2" data-name="패스 256" d="M409.441-100.163a29.83,29.83,0,0,0-29.83-29.83,29.684,29.684,0,0,0-29.819,29.008,29.761,29.761,0,0,0,10.232,23.319A11.92,11.92,0,0,1,364.2-68.7v4.445h30.828V-68.7a11.809,11.809,0,0,1,4.117-8.914A29.759,29.759,0,0,0,409.441-100.163Z" transform="translate(-136.2 304.26) rotate(-22)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(0.93, 0.37, -0.37, 0.93, 240.26, -231.08)" filter="url(#사각형_1007)">
+        <rect id="사각형_1007-2" data-name="사각형 1007" width="30.828" height="6.683" transform="translate(178.45 110.83) rotate(-22)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g transform="matrix(0.93, 0.37, -0.37, 0.93, 240.26, -231.08)" filter="url(#사각형_1008)">
+        <path id="사각형_1008-2" data-name="사각형 1008" d="M0,0H30.828a0,0,0,0,1,0,0V3.1a3.583,3.583,0,0,1-3.583,3.583H3.583A3.583,3.583,0,0,1,0,3.1V0A0,0,0,0,1,0,0Z" transform="translate(182.19 119.36) rotate(-22)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <path id="패스_257" data-name="패스 257" d="M408.514-96.786a26.176,26.176,0,0,0-26.177-26.177,26.047,26.047,0,0,0-26.167,25.456,26.115,26.115,0,0,0,8.978,20.463,10.46,10.46,0,0,1,3.663,7.868v6.191h27.052V-69.18A10.363,10.363,0,0,1,399.477-77,26.116,26.116,0,0,0,408.514-96.786Z" transform="translate(-2.727 -3.004)" fill="url(#linear-gradient-5)"/>
+      <circle id="타원_270" data-name="타원 270" cx="5.114" cy="5.114" r="5.114" transform="translate(360.454 -117.957)" fill="url(#linear-gradient-6)"/>
+    </g>
+    <g id="그룹_257" data-name="그룹 257" transform="translate(-99.161 105.066)">
+      <rect id="사각형_1018" data-name="사각형 1018" width="25.596" height="3.719" rx="1.86" transform="translate(239.686 208.872)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1019" data-name="사각형 1019" width="14.187" height="3.719" rx="1.86" transform="translate(230.977 202.934)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1020" data-name="사각형 1020" width="25.596" height="3.719" rx="1.86" transform="translate(226.502 214.87)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1021" data-name="사각형 1021" width="3.719" height="3.719" rx="1.86" transform="translate(254.067 214.87)" fill="#b6edfd" opacity="0.65"/>
+    </g>
+    <g id="그룹_256" data-name="그룹 256" transform="translate(246.786 349.739)">
+      <rect id="사각형_1018-2" data-name="사각형 1018" width="39.528" height="5.744" rx="2.872" transform="translate(0 9.171)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1019-2" data-name="사각형 1019" width="21.909" height="5.744" rx="2.872" transform="translate(31.069 0)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1020-2" data-name="사각형 1020" width="39.528" height="5.744" rx="2.872" transform="translate(20.361 18.432)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1021-2" data-name="사각형 1021" width="5.744" height="5.744" rx="2.872" transform="translate(11.576 18.432)" fill="#b6edfd" opacity="0.65"/>
+    </g>
+    <g id="그룹_255" data-name="그룹 255" transform="translate(-135.161 175.644)">
+      <rect id="사각형_1018-3" data-name="사각형 1018" width="33.516" height="4.87" rx="2.435" transform="translate(243.766 210.71)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1019-3" data-name="사각형 1019" width="18.577" height="4.87" rx="2.435" transform="translate(232.362 202.934)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1020-3" data-name="사각형 1020" width="33.516" height="4.87" rx="2.435" transform="translate(226.502 218.563)" fill="#b6edfd" opacity="0.65"/>
+      <rect id="사각형_1021-3" data-name="사각형 1021" width="4.87" height="4.87" rx="2.435" transform="translate(262.596 218.563)" fill="#b6edfd" opacity="0.65"/>
+    </g>
+    <path id="패스_266" data-name="패스 266" d="M97.965,337.651,82.989,298.794l-35.672-7.543v83.616a12,12,0,0,0,12,12l78.641-.268-26.564-45.469Z" transform="translate(-31.317 51.539)" opacity="0.388" fill="url(#linear-gradient-7)"/>
+    <path id="패스_268" data-name="패스 268" d="M97.965,319.984,82.989,295.922l-35.672-4.671V343.03c0,4.1,5.373,7.431,12,7.431h92.721l-18.893-23.84Z" transform="translate(-31.317 87.539)" opacity="0.388" fill="url(#linear-gradient-8)"/>
+    <path id="패스_267" data-name="패스 267" d="M100.079,346.918l15.833-31.006,22.047-7.347v66.3a12,12,0,0,1-12,12H59.693l10.779-28.62Z" transform="translate(219.683 51.539)" opacity="0.388" fill="url(#linear-gradient-9)"/>
+    <text id="문제풀기" transform="translate(296 423)" fill="#fff" font-size="14" font-family="MalgunGothicBold, Malgun Gothic" letter-spacing="-0.025em"><tspan x="0" y="0">문제풀기</tspan></text>
+  </g>
+</svg>

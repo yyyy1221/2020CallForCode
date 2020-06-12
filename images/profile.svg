@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="226" viewBox="0 0 360 226">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8ae7ab"/>
+      <stop offset="1" stop-color="#00d9b0"/>
+    </linearGradient>
+    <filter id="사각형_256" x="0" y="0" width="360" height="226" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#008100" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.498" y1="-0.094" x2="0.501" y2="0.753" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b5ff88"/>
+      <stop offset="1" stop-color="#41bfe7"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <circle id="타원_258" data-name="타원 258" cx="63" cy="63" r="63" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="0.022" x2="0.5" y2="0.942" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8dbdd"/>
+      <stop offset="1" stop-color="#fffeff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0.905" x2="0.5" y2="-0.034" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0a378"/>
+      <stop offset="0.364" stop-color="#f0a778"/>
+      <stop offset="0.773" stop-color="#f0b578"/>
+      <stop offset="1" stop-color="#f0c078"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" y1="3.101" x2="0.5" y2="-0.381" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0a378"/>
+      <stop offset="1" stop-color="#f0c078"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.5" y1="0.155" x2="0.5" y2="0.943" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4b2b34"/>
+      <stop offset="1" stop-color="#310c23"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.5" y1="0.239" x2="0.5" y2="1.133" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-9" x1="0.5" y1="-0.005" x2="0.49" y2="1" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-10" x1="0.5" y1="0.022" x2="0.5" y2="0.942" gradientUnits="objectBoundingBox">
+      <stop offset="0.278" stop-color="#f0a378"/>
+      <stop offset="1" stop-color="#f0c078"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="0.5" y1="0.972" x2="0.5" y2="0.016" gradientUnits="objectBoundingBox">
+      <stop offset="0.618" stop-color="#f0a378"/>
+      <stop offset="1" stop-color="#f0c078"/>
+    </linearGradient>
+    <clipPath id="clip-path-3">
+      <path id="패스_249" data-name="패스 249" d="M90.357,172.158l28.068-56.624H62.289Z" transform="translate(-62.289 -115.533)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="사각형_1000" data-name="사각형 1000" width="64.694" height="65.182" fill="none"/>
+    </clipPath>
+    <filter id="타원_268" x="21" y="47" width="150" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="사각형_1003" x="59" y="38" width="74" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_264" data-name="그룹 264" transform="translate(9 6)">
+    <g id="Hero">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#사각형_256)">
+        <rect id="사각형_256-2" data-name="사각형 256" width="342" height="208" rx="12" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="그룹_221" data-name="그룹 221" transform="translate(-29 -52)">
+      <text id="_0.4" data-name="0.4" transform="translate(234 166)" fill="#fdfffc" font-size="56" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">0.4</tspan></text>
+      <text id="마리를_구했습니다_" data-name="마리를 구했습니다!" transform="translate(213 196)" fill="#fff" font-size="16" font-family="MalgunGothicBold, Malgun Gothic" letter-spacing="-0.025em"><tspan x="0" y="0">마리를</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> </tspan><tspan y="0">구했습니다</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">!</tspan></text>
+    </g>
+    <g id="그룹_254" data-name="그룹 254" transform="translate(-130.056 -464.072) rotate(30)" opacity="0.805">
+      <path id="합치기_63" data-name="합치기 63" d="M-17.668,5079.315a22.289,22.289,0,0,1,6.387-15.648,18.165,18.165,0,0,1-2.225-8.738,18.248,18.248,0,1,1,36.5,0,18.166,18.166,0,0,1-2.256,8.8,22.293,22.293,0,0,1,6.33,15.591,22.366,22.366,0,1,1-44.732,0Z" transform="translate(485.743 -4762.549)" fill="#aef8c8" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="패스_263" data-name="패스 263" d="M497.106,359.092h-2.9l1.415-75.8h.537Z" transform="translate(-6.62 -2.321)" fill="#6ec29e"/>
+      <line id="선_78" data-name="선 78" y1="14.632" x2="14.632" transform="translate(489.038 314.469)" fill="none" stroke="#6ec29e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_79" data-name="선 79" y1="9.105" x2="9.105" transform="translate(489.038 304.179)" fill="none" stroke="#6ec29e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_80" data-name="선 80" y1="6.508" x2="6.508" transform="translate(489.038 293.054)" fill="none" stroke="#6ec29e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_81" data-name="선 81" x1="14.632" y1="14.632" transform="translate(474.119 317.723)" fill="none" stroke="#6ec29e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_82" data-name="선 82" x1="9.105" y1="9.105" transform="translate(479.646 307.434)" fill="none" stroke="#6ec29e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="선_83" data-name="선 83" x1="6.508" y1="6.508" transform="translate(482.243 296.308)" fill="none" stroke="#6ec29e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <text id="SVG" transform="translate(75 120)" fill="#2699fb" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="-0.025em"><tspan x="0" y="0">SVG</tspan></text>
+    <g id="그룹_252" data-name="그룹 252" transform="translate(-112.425 -179.298)" opacity="0.672">
+      <path id="패스_259" data-name="패스 259" d="M256.86,387.327s-67.873-27.731-87.442-57.959c-22.325-34.488-52.951-41.753-56.993-42.66V376.33a11,11,0,0,0,11,11Z" fill="#cffcdd"/>
+      <path id="패스_260" data-name="패스 260" d="M277.379,387.465s-27.349-4.36-46.6-26.086-27.069-6.977-47.162-12c-15.1-3.776-47.705-26.95-71.148-17.952V376a11.336,11.336,0,0,0,11.327,11.336Z" fill="#8dffdc"/>
+      <path id="패스_261" data-name="패스 261" d="M390.836,387.316a3.979,3.979,0,0,1-1.848-7.505c11.882-6.172,27.094-15.461,33.4-25.21,12.6-19.466,32.17-28.4,32.17-22.729v45.257a10.187,10.187,0,0,1-10.188,10.187Z" fill="#cffcdd" opacity="0.45"/>
+      <path id="패스_262" data-name="패스 262" d="M361.455,387.394s15.437-2.461,26.306-14.724,15.279-3.938,26.621-6.774c7.82-1.955,23.949-13.121,36.777-11.036a4,4,0,0,1,3.382,3.941v18.144a10.38,10.38,0,0,1-10.371,10.38Z" fill="#61ecf2" opacity="0.866"/>
+    </g>
+    <text id="자세히_보기" data-name="자세히 보기" transform="translate(264 193)" fill="#f7f7f7" font-size="14" font-family="MalgunGothicBold, Malgun Gothic" letter-spacing="-0.025em"><tspan x="0" y="0">자세히</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> </tspan><tspan y="0">보기</tspan></text>
+    <g id="그룹_246" data-name="그룹 246" transform="translate(1.695 27.797)">
+      <g id="그룹_231" data-name="그룹 231" transform="translate(22.379 22.379)">
+        <circle id="타원_249" data-name="타원 249" cx="63" cy="63" r="63" fill="url(#linear-gradient-2)"/>
+        <g id="그룹_230" data-name="그룹 230">
+          <g id="그룹_229" data-name="그룹 229" clip-path="url(#clip-path)">
+            <path id="패스_240" data-name="패스 240" d="M126.507,179.206H51.1l3.158-81.962h69.095Z" transform="translate(-26.522 -33.18)" fill="url(#linear-gradient-3)"/>
+            <circle id="타원_250" data-name="타원 250" cx="34.547" cy="34.547" r="34.547" transform="translate(27.673 29.459)" fill="url(#linear-gradient-4)"/>
+            <path id="패스_241" data-name="패스 241" d="M90.357,172.158l28.068-56.624H62.289Z" transform="translate(-28.137 -35.818)" fill="#fffeff"/>
+            <circle id="타원_251" data-name="타원 251" cx="9.308" cy="9.308" r="9.308" transform="translate(32.252 31.913)" fill="url(#linear-gradient-5)"/>
+            <circle id="타원_252" data-name="타원 252" cx="9.308" cy="9.308" r="9.308" transform="translate(73.691 31.913)" fill="url(#linear-gradient-5)"/>
+            <circle id="타원_253" data-name="타원 253" cx="4.759" cy="4.759" r="4.759" transform="translate(42.714 47.763)" fill="url(#linear-gradient-7)"/>
+            <circle id="타원_254" data-name="타원 254" cx="4.759" cy="4.759" r="4.759" transform="translate(72.326 47.763)" fill="url(#linear-gradient-8)"/>
+            <path id="패스_242" data-name="패스 242" d="M91.077,165.051l-23.8-48h47.592Zm-22.5-47.2,22.5,45.384,22.5-45.384Z" transform="translate(-28.857 -36.036)" fill="url(#linear-gradient-9)"/>
+            <circle id="타원_255" data-name="타원 255" cx="16.088" cy="16.088" r="16.088" transform="translate(69.326 58)" fill="#fffeff"/>
+            <circle id="타원_256" data-name="타원 256" cx="16.088" cy="16.088" r="16.088" transform="translate(23.836 58.262)" fill="#fffeff"/>
+            <circle id="타원_257" data-name="타원 257" cx="17.597" cy="17.597" r="17.597" transform="translate(44.889 55.77)" fill="#fffeff"/>
+            <path id="패스_243" data-name="패스 243" d="M94.9,98.158h-.08A5.215,5.215,0,0,1,89.9,94.692h0a2.134,2.134,0,0,1,2.01-2.85H97.8a2.134,2.134,0,0,1,2.01,2.85h0A5.216,5.216,0,0,1,94.9,98.158Z" transform="translate(-32.102 -32.4)" fill="#310c23"/>
+            <path id="패스_244" data-name="패스 244" d="M101.9,113.206a9.429,9.429,0,0,1-8.609-5.6,9.416,9.416,0,0,1-15.268,2.845.806.806,0,1,1,1.141-1.14,7.8,7.8,0,0,0,13.32-5.518.807.807,0,0,1,1.613,0,7.8,7.8,0,0,0,13.317,5.521.807.807,0,1,1,1.14,1.142A9.358,9.358,0,0,1,101.9,113.206Z" transform="translate(-30.373 -34.008)" fill="#310c23"/>
+          </g>
+        </g>
+        <path id="패스_245" data-name="패스 245" d="M123.806,69.489a4.237,4.237,0,0,0-6.849-4.991" transform="translate(-35.697 -28.083)" fill="#fffeff"/>
+        <path id="패스_246" data-name="패스 246" d="M64.95,69.489A4.237,4.237,0,1,1,71.8,64.5" transform="translate(-28.259 -28.083)" fill="#fffeff"/>
+        <circle id="타원_259" data-name="타원 259" cx="3.477" cy="3.477" r="3.477" transform="translate(83.412 63.126)" fill="#ff739c"/>
+        <circle id="타원_260" data-name="타원 260" cx="3.477" cy="3.477" r="3.477" transform="translate(32.535 63.126)" fill="#ff739c"/>
+      </g>
+      <g id="그룹_241" data-name="그룹 241" transform="translate(22.379 22.379)">
+        <g id="그룹_240" data-name="그룹 240" clip-path="url(#clip-path)">
+          <path id="패스_247" data-name="패스 247" d="M126.507,179.206H51.1l3.158-81.962h69.095Z" transform="translate(-26.522 -33.18)" fill="url(#linear-gradient-10)"/>
+          <path id="패스_248" data-name="패스 248" d="M118.359,72.733a9.3,9.3,0,0,0-13.224-12.065,34.524,34.524,0,0,0-31.677-.033,9.293,9.293,0,0,0-13.22,11.992,34.548,34.548,0,1,0,58.121.105Z" transform="translate(-27.044 -27.345)" fill="url(#linear-gradient-11)"/>
+          <g id="그룹_239" data-name="그룹 239" transform="translate(34.152 79.715)">
+            <g id="그룹_238" data-name="그룹 238">
+              <g id="그룹_237" data-name="그룹 237" clip-path="url(#clip-path-3)">
+                <g id="그룹_236" data-name="그룹 236" transform="translate(-4.278 -4.279)">
+                  <g id="그룹_235" data-name="그룹 235">
+                    <g id="그룹_234" data-name="그룹 234" clip-path="url(#clip-path-4)">
+                      <g id="그룹_233" data-name="그룹 233">
+                        <g id="그룹_232" data-name="그룹 232" clip-path="url(#clip-path-4)">
+                          <image id="사각형_998" data-name="사각형 998" width="65.31" height="65.72" transform="translate(-0.316 -0.304)" xlink:href="data:image/png;base64,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"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <circle id="타원_262" data-name="타원 262" cx="4.759" cy="4.759" r="4.759" transform="translate(42.714 47.763)" fill="url(#linear-gradient-7)"/>
+          <circle id="타원_263" data-name="타원 263" cx="4.759" cy="4.759" r="4.759" transform="translate(72.326 47.763)" fill="url(#linear-gradient-8)"/>
+          <path id="패스_250" data-name="패스 250" d="M91.077,165.051l-23.8-48h47.592ZM70.189,119.474l20.888,42.141,20.889-42.141Z" transform="translate(-28.857 -36.036)" fill="url(#linear-gradient-9)"/>
+          <path id="패스_251" data-name="패스 251" d="M113.716,89.891a16.031,16.031,0,0,0-11.883,3.372,17.536,17.536,0,0,0-25.894-.007,16.078,16.078,0,1,0-5.588,28.449c4.542-1.181,9.3,3.41,13.818,4.675A17.606,17.606,0,0,0,94,126.263c4.578-1.4,9.422-5.859,14.077-4.744a16.089,16.089,0,1,0,5.634-31.627Z" transform="translate(-26.397 -31.781)" fill="#fffeff"/>
+          <path id="패스_252" data-name="패스 252" d="M94.9,98.158h-.08A5.215,5.215,0,0,1,89.9,94.692h0a2.134,2.134,0,0,1,2.01-2.85H97.8a2.134,2.134,0,0,1,2.01,2.85h0A5.216,5.216,0,0,1,94.9,98.158Z" transform="translate(-32.102 -32.4)" fill="#310c23"/>
+          <path id="패스_253" data-name="패스 253" d="M101.9,113.206a9.429,9.429,0,0,1-8.609-5.6,9.416,9.416,0,0,1-15.268,2.845.806.806,0,1,1,1.141-1.14,7.8,7.8,0,0,0,13.32-5.518.807.807,0,0,1,1.613,0,7.8,7.8,0,0,0,13.317,5.521.807.807,0,1,1,1.14,1.142A9.358,9.358,0,0,1,101.9,113.206Z" transform="translate(-30.373 -34.008)" fill="#6c6c6c"/>
+        </g>
+      </g>
+      <path id="패스_254" data-name="패스 254" d="M123.806,69.489a4.237,4.237,0,0,0-6.849-4.991" transform="translate(-13.318 -5.704)" fill="#fffeff"/>
+      <path id="패스_255" data-name="패스 255" d="M64.95,69.489A4.237,4.237,0,1,1,71.8,64.5" transform="translate(-5.88 -5.704)" fill="#fffeff"/>
+      <circle id="타원_265" data-name="타원 265" cx="3.477" cy="3.477" r="3.477" transform="translate(105.791 85.505)" fill="#ff739c"/>
+      <circle id="타원_266" data-name="타원 266" cx="3.477" cy="3.477" r="3.477" transform="translate(54.914 85.505)" fill="#ff739c"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#타원_268)">
+      <g id="타원_268-2" data-name="타원 268" transform="translate(33 56)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="63" cy="63" r="63" stroke="none"/>
+        <circle cx="63" cy="63" r="64.5" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#사각형_1003)">
+      <rect id="사각형_1003-2" data-name="사각형 1003" width="56" height="28" rx="4" transform="translate(68 44)" fill="#fff"/>
+    </g>
+    <text id="수달" transform="translate(74 58)" fill="#767676" font-size="14" font-family="MalgunGothicBold, Malgun Gothic"><tspan x="0" y="0">수달</tspan></text>
+  </g>
+</svg>

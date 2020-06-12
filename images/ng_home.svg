@@ -1,0 +1,8 @@
+<svg id="recents" xmlns="http://www.w3.org/2000/svg" width="120" height="56" viewBox="0 0 120 56">
+  <g id="그룹_212" data-name="그룹 212" transform="translate(20 8)">
+    <rect id="XMLID_6_" width="79.9" height="20" transform="translate(0 26)" fill="none"/>
+    <text id="Recents-2" data-name="Recents" transform="translate(35 39.969)" fill="#b9b9b9" font-size="12" font-family="MalgunGothic, Malgun Gothic" opacity="0.54"><tspan x="0" y="0">홈</tspan></text>
+    <path id="패스_105" data-name="패스 105" d="M185.878,198.888l-13.342-13.53a.667.667,0,0,0-.917,0l-13.342,13.53a.6.6,0,0,0-.125.667.639.639,0,0,0,.585.374h3.177v10.455a.626.626,0,0,0,.635.615H168.9a.626.626,0,0,0,.635-.615v-6.445a.626.626,0,0,1,.635-.615h3.812a.626.626,0,0,1,.635.615v6.445a.626.626,0,0,0,.635.615h6.353a.626.626,0,0,0,.635-.615V199.928h3.177a.639.639,0,0,0,.585-.374A.608.608,0,0,0,185.878,198.888Z" transform="translate(-132.102 -183.968)" fill="#b9b9b9"/>
+  </g>
+  <rect id="사각형_133" data-name="사각형 133" width="120" height="56" fill="none"/>
+</svg>
