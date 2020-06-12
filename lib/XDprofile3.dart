@@ -17,7 +17,7 @@ class XDprofile3 extends StatelessWidget {
               children:<Widget>[
                 Container(
                   width: double.infinity,
-                  height: 758.0,
+                  height:  MediaQuery.of(context).size.height - 60,
 //                    alignment: Alignment.center,
 //                  margin: EdgeInsets.all(0.0),
                   child: InkWell(

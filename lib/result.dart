@@ -16,7 +16,7 @@ class result extends StatelessWidget {
               children:<Widget>[
                 Container(
                     width: double.infinity,
-                    height: 812.0,
+                    height: MediaQuery.of(context).size.height,
 //                    alignment: Alignment.center,
 //                  margin: EdgeInsets.all(0.0),
                   child: InkWell(

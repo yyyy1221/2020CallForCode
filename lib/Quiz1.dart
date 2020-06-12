@@ -47,7 +47,8 @@ class Quiz1 extends State<MyStateFul> {
   Widget build(BuildContext context) {
     return new Scaffold(
         backgroundColor: const Color(0xfffdfffc),
-        body: Stack(children: <Widget>[
+        body: Stack(
+            children: <Widget>[
           Transform.translate(
             offset: Offset(-1.0, -1.0),
             child: InkWell(
