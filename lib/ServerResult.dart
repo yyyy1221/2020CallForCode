@@ -302,22 +302,20 @@ class XDver21 extends State<Result> {
           ),
           Transform.translate(
             offset: Offset(-0.43, 0.0),
-            child: Stack(
-              children: <Widget>[
-                Transform.translate(
-                    offset: Offset(34.43, 214.5),
-                    child: InkWell(
-                      onTap: () {
-                        setState(() {
-                          ind = ind < _resultList.length ? ind + 1 : 0;
-                        });
-                      },
-                      child: SvgPicture.string(
-                        _svg_2mvufk,
-                        allowDrawingOutsideViewBox: true,
-                      ),
-                    )),
-              ],
+            child: Container(
+              child: Transform.translate(
+                  offset: Offset(34.43, 214.5),
+                  child: InkWell(
+                    onTap: () {
+                      setState(() {
+                        ind = ind == _resultList.length-1 ? 0 : ind + 1;
+                      });
+                    },
+                    child: SvgPicture.string(
+                      _svg_2mvufk,
+                      allowDrawingOutsideViewBox: true,
+                    ),
+                  )),
             ),
           ),
           buildGridView()
@@ -344,9 +342,10 @@ class XDver21 extends State<Result> {
                 AssetThumb(
                   asset: asset,
                   width: 300,
-                  height: 300,
+                  height: 200,
                 ),
                 Container(
+                  width: 100,
                   child: Column(
                     children: <Widget>[Text(k.type)],
                   ),
