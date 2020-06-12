@@ -240,18 +240,7 @@ class XDver21 extends State<Result> {
               textAlign: TextAlign.left,
             ),
           ),
-          Transform.translate(
-            offset: Offset(106.0, 324.0),
-            child: Text(
-              '비닐봉지',
-              style: TextStyle(
-                fontFamily: 'Arial',
-                fontSize: 13,
-                color: const Color(0xffb9b9b9),
-              ),
-              textAlign: TextAlign.left,
-            ),
-          ),
+
 
           Transform.translate(
             offset: Offset(16.0, 39.0),
