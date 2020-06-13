@@ -53,7 +53,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   List<Widget> _widgetOptions = <Widget>[
     Home(),
     InkWell(
-        child: Icon(Icons.camera_alt),
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Icon(Icons.camera_alt),
+        ),
         onTap: () async {
 //						PickedFile pickedFile =await _picker.getImage(source: ImageSource.gallery);
           List<Asset> images = await MultiImagePicker.pickImages(maxImages: 10
