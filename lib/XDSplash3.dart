@@ -33,6 +33,16 @@ class XDSplash3 extends StatelessWidget {
 //           offset: Offset(107.0, 274.0),
 						child: Image.asset(
 							'images/logo.png', width: 167.0, height: 167.0),
+						onTap: (){
+							Navigator.push(context,
+									PageRouteBuilder(
+											pageBuilder: (a, b, c) => MyApp(),
+											transitionsBuilder: (c, anim, a2, child) =>
+													FadeTransition(opacity: anim, child: child),
+											transitionDuration: Duration(milliseconds: 1000)
+									)
+							);
+						},
 
 					),
 				),
