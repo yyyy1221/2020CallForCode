@@ -11,6 +11,14 @@ IBM 2020 Call For Code 해커톤에서 진행한 프로젝트입니다.
 이것만큼 장기적으로 최상의 효과를 낼 수 있는 방법은 없다고 생각합니다.
 그래서 우리는 분리수거 교육 앱을 개발하였습니다.
 
+![ex_screenshot](./readme/1.png)
+![ex_screenshot](./readme/2.png)
+![ex_screenshot](./readme/3.png)
+![ex_screenshot](./readme/4.png)
+![ex_screenshot](./readme/5.png)
+![ex_screenshot](./readme/6.png)
+![ex_screenshot](./readme/7.png)
+
 ## 기술
 - 앱
   > Flutter
